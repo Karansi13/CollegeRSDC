@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon_io/favicon-32x32.png">
+    <title>Login | FlashFitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- login section starts -->
+    <div id="container">
+        <div class="wrapper ">
+            <span class="icon-close"><i class="fa-solid fa-x"></i>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div>
+                    <select id="user-type" required>
+                        <option value="">Select Role</option>
+                        <option value="coordinator">Coordinator</option>
+                        <option value="faculty">Faculty</option>
+                      </select>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="loginbtn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="signup.html
+                            " class="register-link"> Signup</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- login section ends -->
+
+    <script src="js/logscript.js"></script>
+</body>
+
+</html>
